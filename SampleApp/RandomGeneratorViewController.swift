@@ -8,14 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RandomGeneratorViewController: UIViewController {
     
     @IBOutlet var lowerBoundField: UITextField!
     @IBOutlet var upperBoundField: UITextField!
     
     @IBOutlet var resultLabel: UILabel!
     
+    @IBAction func dismissKeybard() {
+        view.endEditing(true)
+    }
+    
     @IBAction func generate() {
+        dismissKeybard()
         let start:Int? = Int(lowerBoundField.text!)
         let end:Int? = Int(upperBoundField.text!)
         
@@ -23,15 +28,5 @@ class ViewController: UIViewController {
             let random = start! + Int(arc4random_uniform(UInt32(end! - start! + 1)))
             resultLabel.text = "Result: \(random)"
         }
-    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        self.lowerBoundField.keyboardType = .numberPad
-        self.upperBoundField.keyboardType = .numberPad
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
     }
 }
