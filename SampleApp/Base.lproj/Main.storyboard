@@ -227,10 +227,10 @@
             </objects>
             <point key="canvasLocation" x="1244.9275362318842" y="841.304347826087"/>
         </scene>
-        <!--View Controller-->
+        <!--Modal View Controller-->
         <scene sceneID="EGG-dx-cj8">
             <objects>
-                <viewController id="82Q-jV-FMW" sceneMemberID="viewController">
+                <viewController id="82Q-jV-FMW" customClass="ModalViewController" customModule="SampleApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3t9-PN-pbI"/>
                         <viewControllerLayoutGuide type="bottom" id="OCe-k4-6cQ"/>

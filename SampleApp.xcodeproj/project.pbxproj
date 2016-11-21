@@ -13,6 +13,7 @@
 		8D1853FA1DD154E60014F8CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D1853F91DD154E60014F8CE /* Assets.xcassets */; };
 		8D1853FD1DD154E60014F8CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D1853FB1DD154E60014F8CE /* LaunchScreen.storyboard */; };
 		8D1854051DDA8B320014F8CE /* ThemingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1854041DDA8B320014F8CE /* ThemingViewController.swift */; };
+		8DC8D2B21DE375FF00BC2C32 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC8D2B11DE375FF00BC2C32 /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8D1853FC1DD154E60014F8CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D1853FE1DD154E60014F8CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1854041DDA8B320014F8CE /* ThemingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemingViewController.swift; sourceTree = "<group>"; };
+		8DC8D2B11DE375FF00BC2C32 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				8D1853F21DD154E60014F8CE /* AppDelegate.swift */,
 				8D1853F41DD154E60014F8CE /* RandomGeneratorViewController.swift */,
 				8D1853F61DD154E60014F8CE /* Main.storyboard */,
+				8DC8D2B11DE375FF00BC2C32 /* ModalViewController.swift */,
 				8D1854041DDA8B320014F8CE /* ThemingViewController.swift */,
 				8D1853F91DD154E60014F8CE /* Assets.xcassets */,
 				8D1853FB1DD154E60014F8CE /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DC8D2B21DE375FF00BC2C32 /* ModalViewController.swift in Sources */,
 				8D1853F51DD154E60014F8CE /* RandomGeneratorViewController.swift in Sources */,
 				8D1854051DDA8B320014F8CE /* ThemingViewController.swift in Sources */,
 				8D1853F31DD154E60014F8CE /* AppDelegate.swift in Sources */,

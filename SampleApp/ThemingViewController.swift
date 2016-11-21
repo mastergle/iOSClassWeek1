@@ -72,9 +72,9 @@ class ThemingViewController: UIViewController {
     private func setDefaultTheme() {
 
         view.backgroundColor = UIColor.white
-        alertButton.titleLabel!.textColor = UIColor.black
-        actionSheetButton.titleLabel!.textColor = UIColor.black
-        modalButton.titleLabel!.textColor = UIColor.black
+        alertButton.setTitleColor(UIColor.black, for: UIControlState.normal)
+        actionSheetButton.setTitleColor(UIColor.black, for: UIControlState.normal)
+        modalButton.setTitleColor(UIColor.black, for: UIControlState.normal)
         themeLabel.textColor = UIColor.white
         stepLabel.textColor = UIColor.white
     }
@@ -82,9 +82,9 @@ class ThemingViewController: UIViewController {
     private func setDarkTheme() {
 
         view.backgroundColor = UIColor.black
-        alertButton.titleLabel!.textColor = UIColor.white
-        actionSheetButton.titleLabel!.textColor = UIColor.white
-        modalButton.titleLabel!.textColor = UIColor.white
+        alertButton.setTitleColor(UIColor.white, for: UIControlState.normal)
+        actionSheetButton.setTitleColor(UIColor.white, for: UIControlState.normal)
+        modalButton.setTitleColor(UIColor.white, for: UIControlState.normal)
         themeLabel.textColor = UIColor.black
         stepLabel.textColor = UIColor.black
     }
